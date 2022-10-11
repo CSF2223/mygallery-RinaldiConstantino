@@ -1,7 +1,65 @@
+
 /*
-Color Palette:
-background color:  
-font color:        
-secondary color:   
-tertiary color:    
+color palettehttps://colorhunt.co/palette/06283d256d8547b5ffdff6ff
+background color: #06283D
+Font color: #256D85
+secondary color: #47B5FF
+tertiary color: #DFF6FF
 */
+/* CSSnsynax notes:
+selector {property: value;}
+*/
+header { 
+    margin: 0 4rem;
+ letter-spacing: 0.8rem;
+ text-align: center;
+border-bottom: 1px solid #47B5FF;
+border-right: 1px solid #47B5FF;
+border-left: 1px solid #47B5FF;
+padding: 0.5rem;
+box-shadow: 4px 4px 5px rgba(0,0,0,0.4);
+text-transform: uppercase;
+FONT-SIZE: 1.1rem;
+}
+body{
+background-color: #06283D;
+color: #DFF6FF;
+font-family: 'Open Sans', sans-serif;
+}
+html {
+    font-size: 62.5%; /*defult font size is 16 px- 62.5%of 16 is 10px 1 rem (relevent unit ) now will be equivilent to 10 px}*/
+}
+
+cite {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+
+.imageCard {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    margin:7rem 4rem;
+}
+
+.imageCard img {
+    width:100%;
+    height:auto;
+    border-radius: 30PX;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.cardText {
+    color:#DFF6FF;
+    text-align:center;
+    padding:2rem;
+    border-radius: 30px;
+    margin-top:2rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
